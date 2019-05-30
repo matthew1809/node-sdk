@@ -1,8 +1,3 @@
-if (process.env.GP_NETSUITE_BUILD) {
-  // tslint:disable-next-line
-  require("../netsuite/set-timeout-polyfill");
-}
-
 import "es6-promise/auto";
 import "typedarray";
 
